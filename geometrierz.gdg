@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project firstLayout="">
+    <gdVersion build="94" major="4" minor="0" revision="0" />
+    <properties folderProject="false" linuxExecutableFilename="" macExecutableFilename="" packageName="com.example.gamename" useExternalSourceFiles="false" winExecutableFilename="" winExecutableIconFile="">
+        <name>Geometrierz</name>
+        <author></author>
+        <windowWidth>800</windowWidth>
+        <windowHeight>600</windowHeight>
+        <latestCompilationDirectory></latestCompilationDirectory>
+        <maxFPS>60</maxFPS>
+        <minFPS>10</minFPS>
+        <verticalSync>false</verticalSync>
+        <extensions>
+            <extension name="BuiltinObject" />
+            <extension name="BuiltinAudio" />
+            <extension name="BuiltinVariables" />
+            <extension name="BuiltinTime" />
+            <extension name="BuiltinMouse" />
+            <extension name="BuiltinKeyboard" />
+            <extension name="BuiltinJoystick" />
+            <extension name="BuiltinCamera" />
+            <extension name="BuiltinWindow" />
+            <extension name="BuiltinFile" />
+            <extension name="BuiltinNetwork" />
+            <extension name="BuiltinScene" />
+            <extension name="BuiltinAdvanced" />
+            <extension name="Sprite" />
+            <extension name="BuiltinCommonInstructions" />
+            <extension name="BuiltinCommonConversions" />
+            <extension name="BuiltinStringInstructions" />
+            <extension name="BuiltinMathematicalTools" />
+            <extension name="BuiltinExternalLayouts" />
+            <extension name="PhysicsBehavior" />
+            <extension name="Function" />
+            <extension name="PlatformBehavior" />
+            <extension name="ParticleSystem" />
+            <extension name="TimedEvent" />
+            <extension name="AdvancedXML" />
+            <extension name="TileMapObject" />
+            <extension name="Light" />
+            <extension name="SoundObject" />
+            <extension name="PanelSpriteObject" />
+            <extension name="PathfindingBehavior" />
+            <extension name="PathBehavior" />
+            <extension name="TiledSpriteObject" />
+        </extensions>
+        <platforms>
+            <platform name="GDevelop C++ platform" />
+        </platforms>
+        <currentPlatform>GDevelop C++ platform</currentPlatform>
+    </properties>
+    <resources>
+        <resources>
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue00.png" kind="image" name="gmtrz_solid_blue00.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue01.png" kind="image" name="gmtrz_solid_blue01.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue02.png" kind="image" name="gmtrz_solid_blue02.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue03.png" kind="image" name="gmtrz_solid_blue03.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue04.png" kind="image" name="gmtrz_solid_blue04.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue05.png" kind="image" name="gmtrz_solid_blue05.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue06.png" kind="image" name="gmtrz_solid_blue06.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue07.png" kind="image" name="gmtrz_solid_blue07.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue08.png" kind="image" name="gmtrz_solid_blue08.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue09.png" kind="image" name="gmtrz_solid_blue09.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue10.png" kind="image" name="gmtrz_solid_blue10.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue11.png" kind="image" name="gmtrz_solid_blue11.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue12.png" kind="image" name="gmtrz_solid_blue12.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue13.png" kind="image" name="gmtrz_solid_blue13.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue14.png" kind="image" name="gmtrz_solid_blue14.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue15.png" kind="image" name="gmtrz_solid_blue15.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_solid_blue16.png" kind="image" name="gmtrz_solid_blue16.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../../../../run/media/jacobopus/8AB8DAEDB8DAD733/Users/jacobopus/Documents/gdev/exported/gwtf_back2.png" kind="image" name="gwtf_back2.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/gmtrz_back_1.png" kind="image" name="gmtrz_back_1.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="assets/img/gwtf_solid_blue_wlight_bottom_alternate0.png" kind="image" name="gwtf_solid_blue_wlight_bottom_alternate0.png" smoothed="true" userAdded="true" />
+        </resources>
+        <resourceFolders />
+    </resources>
+    <objects />
+    <objectsGroups />
+    <variables />
+    <layouts>
+        <layout b="209" disableInputWhenNotFocused="true" mangledName="Tritankle_95Stage" name="Tritankle_Stage" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.050000" />
+            <objectsGroups />
+            <variables />
+            <instances>
+                <instance angle="0.000000" customSize="true" height="2081.999512" layer="Fondo" locked="true" name="Fondo" width="10474.000000" x="-755.000366" y="-772.000061" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+            </instances>
+            <objects>
+                <object height="382.000000" name="Fondo" texture="gmtrz_back_1.png" type="TiledSpriteObject::TiledSprite" width="574.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="55.000000" name="box_blue_solid" texture="gwtf_solid_blue_wlight_bottom_alternate0.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="32.000000" name="solid_platform" texture="" type="TiledSpriteObject::TiledSprite" width="32.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+            </objects>
+            <events />
+            <layers>
+                <layer name="Fondo" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="parallax" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="UI" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+            </layers>
+            <behaviorsSharedData />
+        </layout>
+    </layouts>
+    <externalEvents />
+    <externalLayouts />
+    <externalSourceFiles />
+</project>
