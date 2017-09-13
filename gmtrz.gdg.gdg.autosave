@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project firstLayout="">
+    <gdVersion build="94" major="4" minor="0" revision="0" />
+    <properties folderProject="false" linuxExecutableFilename="" macExecutableFilename="" packageName="com.example.gamename" useExternalSourceFiles="true" winExecutableFilename="" winExecutableIconFile="">
+        <name>Gmtrz</name>
+        <author></author>
+        <windowWidth>960</windowWidth>
+        <windowHeight>600</windowHeight>
+        <latestCompilationDirectory></latestCompilationDirectory>
+        <maxFPS>60</maxFPS>
+        <minFPS>20</minFPS>
+        <verticalSync>false</verticalSync>
+        <extensions>
+            <extension name="BuiltinObject" />
+            <extension name="BuiltinAudio" />
+            <extension name="BuiltinVariables" />
+            <extension name="BuiltinTime" />
+            <extension name="BuiltinMouse" />
+            <extension name="BuiltinKeyboard" />
+            <extension name="BuiltinJoystick" />
+            <extension name="BuiltinCamera" />
+            <extension name="BuiltinWindow" />
+            <extension name="BuiltinFile" />
+            <extension name="BuiltinNetwork" />
+            <extension name="BuiltinScene" />
+            <extension name="BuiltinAdvanced" />
+            <extension name="Sprite" />
+            <extension name="BuiltinCommonInstructions" />
+            <extension name="BuiltinCommonConversions" />
+            <extension name="BuiltinStringInstructions" />
+            <extension name="BuiltinMathematicalTools" />
+            <extension name="BuiltinExternalLayouts" />
+            <extension name="PhysicsBehavior" />
+            <extension name="TextObject" />
+            <extension name="PlatformBehavior" />
+            <extension name="Inventory" />
+            <extension name="PathfindingBehavior" />
+            <extension name="TiledSpriteObject" />
+        </extensions>
+        <platforms>
+            <platform name="GDevelop JS platform" />
+        </platforms>
+        <currentPlatform>GDevelop JS platform</currentPlatform>
+    </properties>
+    <resources>
+        <resources>
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/st1_block_10x16.png" kind="image" name="st1_block_10x16.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_060.png" kind="image" name="gmtrz_solid_blue_060.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_061.png" kind="image" name="gmtrz_solid_blue_061.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_059.png" kind="image" name="gmtrz_solid_blue_059.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_041.png" kind="image" name="gmtrz_solid_blue_041.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_042.png" kind="image" name="gmtrz_solid_blue_042.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_018.png" kind="image" name="gmtrz_solid_blue_018.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_078.png" kind="image" name="gmtrz_solid_blue_078.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_044.png" kind="image" name="gmtrz_solid_blue_044.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_014.png" kind="image" name="gmtrz_solid_blue_014.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/block_3x3.png" kind="image" name="block_3x3.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_032.png" kind="image" name="gmtrz_solid_blue_032.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_025.png" kind="image" name="gmtrz_solid_blue_025.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_023.png" kind="image" name="gmtrz_solid_blue_023.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_024.png" kind="image" name="gmtrz_solid_blue_024.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_099.png" kind="image" name="gmtrz_solid_blue_099.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_000.png" kind="image" name="gmtrz_solid_blue_000.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_005.png" kind="image" name="gmtrz_solid_blue_005.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_001.png" kind="image" name="gmtrz_solid_blue_001.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_002.png" kind="image" name="gmtrz_solid_blue_002.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_008.png" kind="image" name="gmtrz_solid_blue_008.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_003.png" kind="image" name="gmtrz_solid_blue_003.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_027.png" kind="image" name="gmtrz_solid_blue_027.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_028.png" kind="image" name="gmtrz_solid_blue_028.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_030.png" kind="image" name="gmtrz_solid_blue_030.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/fondos/gmtrz_back_1.png" kind="image" name="gmtrz_back_1.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_00.png" kind="image" name="gmtrz_cubicon_prime_00.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_01.png" kind="image" name="gmtrz_cubicon_prime_01.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_02.png" kind="image" name="gmtrz_cubicon_prime_02.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_03.png" kind="image" name="gmtrz_cubicon_prime_03.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_04.png" kind="image" name="gmtrz_cubicon_prime_04.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_05.png" kind="image" name="gmtrz_cubicon_prime_05.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_06.png" kind="image" name="gmtrz_cubicon_prime_06.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_07.png" kind="image" name="gmtrz_cubicon_prime_07.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_08.png" kind="image" name="gmtrz_cubicon_prime_08.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_09.png" kind="image" name="gmtrz_cubicon_prime_09.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_10.png" kind="image" name="gmtrz_cubicon_prime_10.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_11.png" kind="image" name="gmtrz_cubicon_prime_11.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_12.png" kind="image" name="gmtrz_cubicon_prime_12.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_13.png" kind="image" name="gmtrz_cubicon_prime_13.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_14.png" kind="image" name="gmtrz_cubicon_prime_14.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_dashing.png" kind="image" name="gmtrz_cubicon_prime_dashing.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_dead_01.png" kind="image" name="gmtrz_cubicon_prime_dead_01.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_dead_02.png" kind="image" name="gmtrz_cubicon_prime_dead_02.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_falling.png" kind="image" name="gmtrz_cubicon_prime_falling.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_hurt.png" kind="image" name="gmtrz_cubicon_prime_hurt.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/actors/hero/gmtrz_cubicon_prime_jumping.png" kind="image" name="gmtrz_cubicon_prime_jumping.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_solid_blue_102.png" kind="image" name="gmtrz_solid_blue_102.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_desliz_0.png" kind="image" name="gmtrz_desliz_0.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/blue/gmtrz_desliz_1.png" kind="image" name="gmtrz_desliz_1.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/red-plasma/plasma_red_top.png" kind="image" name="plasma_red_top.png" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/red-plasma/plasma_red_top2.png" kind="image" name="plasma_red_top2.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/red-plasma/plasma_red_block1.png" kind="image" name="plasma_red_block1.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="assets/img/tiles/red-plasma/plasma_red_block2.png" kind="image" name="plasma_red_block2.png" smoothed="true" userAdded="true" />
+        </resources>
+        <resourceFolders>
+            <folder name="solids-img">
+                <resources>
+                    <resource name="st1_block_10x16.png" />
+                    <resource name="gmtrz_solid_blue_060.png" />
+                    <resource name="gmtrz_solid_blue_061.png" />
+                    <resource name="gmtrz_solid_blue_041.png" />
+                    <resource name="gmtrz_solid_blue_042.png" />
+                    <resource name="gmtrz_solid_blue_018.png" />
+                    <resource name="gmtrz_solid_blue_078.png" />
+                    <resource name="gmtrz_solid_blue_044.png" />
+                    <resource name="gmtrz_solid_blue_014.png" />
+                    <resource name="block_3x3.png" />
+                    <resource name="gmtrz_solid_blue_032.png" />
+                    <resource name="gmtrz_solid_blue_025.png" />
+                    <resource name="gmtrz_solid_blue_023.png" />
+                    <resource name="gmtrz_solid_blue_024.png" />
+                    <resource name="gmtrz_solid_blue_099.png" />
+                    <resource name="gmtrz_solid_blue_000.png" />
+                    <resource name="gmtrz_solid_blue_005.png" />
+                    <resource name="gmtrz_solid_blue_001.png" />
+                    <resource name="gmtrz_solid_blue_002.png" />
+                    <resource name="gmtrz_solid_blue_008.png" />
+                    <resource name="gmtrz_solid_blue_003.png" />
+                    <resource name="gmtrz_solid_blue_027.png" />
+                    <resource name="gmtrz_solid_blue_028.png" />
+                    <resource name="gmtrz_solid_blue_030.png" />
+                    <resource name="gmtrz_back_1.png" />
+                    <resource name="gmtrz_solid_blue_102.png" />
+                    <resource name="gmtrz_desliz_0.png" />
+                    <resource name="gmtrz_desliz_1.png" />
+                </resources>
+            </folder>
+            <folder name="enemies-img">
+                <resources />
+            </folder>
+            <folder name="liquids">
+                <resources>
+                    <resource name="plasma_red_top.png" />
+                    <resource name="plasma_red_top2.png" />
+                    <resource name="plasma_red_block1.png" />
+                    <resource name="plasma_red_block2.png" />
+                </resources>
+            </folder>
+            <folder name="hero">
+                <resources>
+                    <resource name="gmtrz_cubicon_prime_00.png" />
+                    <resource name="gmtrz_cubicon_prime_01.png" />
+                    <resource name="gmtrz_cubicon_prime_02.png" />
+                    <resource name="gmtrz_cubicon_prime_03.png" />
+                    <resource name="gmtrz_cubicon_prime_04.png" />
+                    <resource name="gmtrz_cubicon_prime_05.png" />
+                    <resource name="gmtrz_cubicon_prime_06.png" />
+                    <resource name="gmtrz_cubicon_prime_07.png" />
+                    <resource name="gmtrz_cubicon_prime_08.png" />
+                    <resource name="gmtrz_cubicon_prime_09.png" />
+                    <resource name="gmtrz_cubicon_prime_10.png" />
+                    <resource name="gmtrz_cubicon_prime_11.png" />
+                    <resource name="gmtrz_cubicon_prime_12.png" />
+                    <resource name="gmtrz_cubicon_prime_13.png" />
+                    <resource name="gmtrz_cubicon_prime_14.png" />
+                    <resource name="gmtrz_cubicon_prime_dashing.png" />
+                    <resource name="gmtrz_cubicon_prime_dead_01.png" />
+                    <resource name="gmtrz_cubicon_prime_dead_02.png" />
+                    <resource name="gmtrz_cubicon_prime_falling.png" />
+                    <resource name="gmtrz_cubicon_prime_hurt.png" />
+                    <resource name="gmtrz_cubicon_prime_jumping.png" />
+                </resources>
+            </folder>
+        </resourceFolders>
+    </resources>
+    <objects>
+        <object name="Hero" type="Sprite">
+            <variables />
+            <behaviors>
+                <behavior angularDamping="0.100000" autoResizing="false" averageFriction="0.800000" averageRestitution="0.500000" coordsList="" dynamic="true" fixedRotation="false" isBullet="false" linearDamping="0.100000" massDensity="4.000000" name="Physics" polygonHeight="200.000000" polygonWidth="200.000000" positioning="OnCenter" shapeType="Box" type="PhysicsBehavior::PhysicsBehavior" />
+                <behavior acceleration="1300.000000" canGrabPlatforms="false" deceleration="1100.000000" gravity="1200.000000" ignoreDefaultControls="false" jumpSpeed="950.000000" maxFallingSpeed="900.000000" maxSpeed="350.000000" name="platformerHero" slopeMaxAngle="50.000000" type="PlatformBehavior::PlatformerObjectBehavior" xGrabTolerance="0.000000" yGrabOffset="0.000000" />
+            </behaviors>
+            <animations>
+                <animation name="Idle" useMultipleDirections="false">
+                    <directions>
+                        <direction looping="true" timeBetweenFrames="0.500000">
+                            <sprites>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_00.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="17.000000" y="18.000000" />
+                                            <vertice x="59.000000" y="18.000000" />
+                                            <vertice x="58.000000" y="61.000000" />
+                                            <vertice x="15.000000" y="61.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_01.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="17.000000" y="18.000000" />
+                                            <vertice x="59.000000" y="18.000000" />
+                                            <vertice x="58.000000" y="61.000000" />
+                                            <vertice x="15.000000" y="61.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                            </sprites>
+                        </direction>
+                    </directions>
+                </animation>
+                <animation name="Shoot" useMultipleDirections="false">
+                    <directions>
+                        <direction looping="false" timeBetweenFrames="0.010000">
+                            <sprites>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_hurt.png">
+                                    <points>
+                                        <point name="NuevoPunto" x="0.000000" y="0.000000" />
+                                    </points>
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="13.000000" y="56.000000" />
+                                            <vertice x="13.000000" y="27.000000" />
+                                            <vertice x="21.000000" y="22.000000" />
+                                            <vertice x="54.000000" y="22.000000" />
+                                            <vertice x="59.000000" y="28.000000" />
+                                            <vertice x="59.000000" y="59.000000" />
+                                            <vertice x="54.000000" y="66.000000" />
+                                            <vertice x="20.000000" y="65.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                            </sprites>
+                        </direction>
+                    </directions>
+                </animation>
+                <animation name="Run" useMultipleDirections="false">
+                    <directions>
+                        <direction looping="false" timeBetweenFrames="1.000000">
+                            <sprites>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_dashing.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="16.000000" y="18.000000" />
+                                            <vertice x="59.000000" y="21.000000" />
+                                            <vertice x="58.000000" y="61.000000" />
+                                            <vertice x="11.000000" y="61.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                            </sprites>
+                        </direction>
+                    </directions>
+                </animation>
+                <animation name="Blasting" useMultipleDirections="false">
+                    <directions>
+                        <direction looping="false" timeBetweenFrames="0.030000">
+                            <sprites>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_04.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_05.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_06.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_07.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_08.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_09.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_10.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_11.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_12.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_13.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_14.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="16.000000" />
+                                            <vertice x="60.000000" y="18.000000" />
+                                            <vertice x="60.000000" y="61.000000" />
+                                            <vertice x="12.000000" y="60.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                            </sprites>
+                        </direction>
+                    </directions>
+                </animation>
+                <animation name="Jump" useMultipleDirections="false">
+                    <directions>
+                        <direction looping="false" timeBetweenFrames="1.000000">
+                            <sprites>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_jumping.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="15.000000" y="19.000000" />
+                                            <vertice x="59.000000" y="22.000000" />
+                                            <vertice x="59.000000" y="62.000000" />
+                                            <vertice x="13.000000" y="61.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                            </sprites>
+                        </direction>
+                    </directions>
+                </animation>
+                <animation name="falling" useMultipleDirections="false">
+                    <directions>
+                        <direction looping="false" timeBetweenFrames="1.000000">
+                            <sprites>
+                                <sprite hasCustomCollisionMask="true" image="gmtrz_cubicon_prime_falling.png">
+                                    <points />
+                                    <originPoint name="origine" x="0.000000" y="0.000000" />
+                                    <centerPoint automatic="true" name="centre" x="36.500000" y="33.000000" />
+                                    <customCollisionMask>
+                                        <polygon>
+                                            <vertice x="14.000000" y="11.000000" />
+                                            <vertice x="58.000000" y="14.000000" />
+                                            <vertice x="57.000000" y="60.000000" />
+                                            <vertice x="17.000000" y="56.000000" />
+                                        </polygon>
+                                    </customCollisionMask>
+                                </sprite>
+                            </sprites>
+                        </direction>
+                    </directions>
+                </animation>
+            </animations>
+        </object>
+    </objects>
+    <objectsGroups />
+    <variables>
+        <variable name="hero">
+            <children>
+                <variable name="facing" value="0" />
+                <variable name="hp" value="hp" />
+                <variable name="score" value="0" />
+                <variable name="status" value="0" />
+                <variable name="upgrades">
+                    <children>
+                        <variable name="blaster" value="0" />
+                        <variable name="dash" value="0" />
+                        <variable name="doubleJump" value="0" />
+                        <variable name="moreEnergy" value="0" />
+                        <variable name="plasmaSword" value="0" />
+                        <variable name="shield" value="0" />
+                    </children>
+                </variable>
+            </children>
+        </variable>
+        <variable name="game">
+            <children>
+                <variable name="currentScene" value="0" />
+                <variable name="isGameOver" value="0" />
+                <variable name="stages">
+                    <children>
+                        <variable name="isFinalStageCleared" value="0" />
+                        <variable name="isStage1Cleared" value="0" />
+                        <variable name="isStage2Cleared" value="0" />
+                        <variable name="isStage3Cleared" value="0" />
+                    </children>
+                </variable>
+                <variable name="status" value="0" />
+            </children>
+        </variable>
+    </variables>
+    <layouts>
+        <layout b="209" disableInputWhenNotFocused="true" mangledName="Tritankle" name="Tritankle" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
+            <uiSettings grid="true" gridB="94" gridG="210" gridHeight="55" gridOffsetX="0" gridOffsetY="0" gridR="94" gridWidth="55" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <objectsGroups>
+                <group name="movables by rebound system">
+                    <objects />
+                </group>
+                <group name="Enemies">
+                    <objects />
+                </group>
+                <group name="Solids">
+                    <objects>
+                        <object name="bigBlock_1" />
+                        <object name="cornerFloor_1" />
+                        <object name="floor_1" />
+                        <object name="cornerFloor_2" />
+                        <object name="bar_1" />
+                        <object name="bar_2" />
+                        <object name="rellenoBlue" />
+                        <object name="cornerFlat_1" />
+                        <object name="barFlat_1" />
+                        <object name="cornerDetail_1" />
+                        <object name="box_4x4_detail" />
+                        <object name="barDetailLeft" />
+                        <object name="barDetailTop" />
+                        <object name="barDetailRight" />
+                        <object name="boxBlue" />
+                        <object name="angle45_2" />
+                    </objects>
+                </group>
+                <group name="Reboundable">
+                    <objects>
+                        <object name="bigBlock_1" />
+                        <object name="cornerFloor_1" />
+                        <object name="floor_1" />
+                        <object name="cornerFloor_2" />
+                        <object name="bar_1" />
+                        <object name="bar_2" />
+                        <object name="rellenoBlue" />
+                        <object name="barFlat_1" />
+                        <object name="cornerFlat_1" />
+                        <object name="cornerDetail_1" />
+                        <object name="box_4x4_detail" />
+                        <object name="barDetailLeft" />
+                        <object name="barDetailTop" />
+                        <object name="barDetailRight" />
+                        <object name="boxBlue" />
+                        <object name="angle45" />
+                        <object name="angle45_2" />
+                    </objects>
+                </group>
+                <group name="PainByTouch">
+                    <objects>
+                        <object name="redPlasma1" />
+                        <object name="redPlasma2" />
+                    </objects>
+                </group>
+            </objectsGroups>
+            <variables />
+            <instances>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="angleDetail" width="0.000000" x="-165.000000" y="-330.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="90.000000" customSize="true" height="55.000000" layer="" locked="false" name="angleDetail" width="55.000000" x="220.000000" y="-165.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="90.000000" customSize="true" height="55.000000" layer="" locked="false" name="barDetail" width="55.000000" x="-110.000000" y="-330.000000" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="90.000000" customSize="true" height="55.000000" layer="" locked="false" name="barDetail" width="55.000000" x="-55.000000" y="-330.000000" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="90.000000" customSize="true" height="55.000000" layer="" locked="false" name="barDetail" width="55.000000" x="0.000000" y="-330.000000" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="90.000000" customSize="true" height="55.000000" layer="" locked="false" name="barDetail" width="55.000000" x="55.000000" y="-330.000000" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="90.000000" customSize="true" height="55.000000" layer="" locked="false" name="barDetail" width="55.000000" x="110.000000" y="-330.000000" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="90.000000" customSize="true" height="55.000000" layer="" locked="false" name="barDetail" width="55.000000" x="165.000000" y="-330.000000" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-180.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="angleLittle2" width="0.000000" x="-110.000000" y="-330.000000" zOrder="8">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-90.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="barDetailAlpha" width="0.000000" x="-55.000000" y="-330.000000" zOrder="9">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-90.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="barDetailAlpha" width="0.000000" x="0.000000" y="-330.000000" zOrder="10">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-90.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="barDetailAlpha" width="0.000000" x="55.000000" y="-330.000000" zOrder="11">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-90.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="barDetailAlpha" width="0.000000" x="110.000000" y="-330.000000" zOrder="12">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="3740.000000" layer="" locked="false" name="bigBlock_1" width="1375.000000" x="-1262.999878" y="-2035.000000" zOrder="4">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="2420.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="385.000000" y="-2027.000000" zOrder="5">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="cornerFloor_1" width="0.000000" x="110.000000" y="660.000000" zOrder="6">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="floor_1" width="2090.000000" x="165.000000" y="660.000000" zOrder="7">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="cornerFloor_2" width="0.000000" x="2255.000000" y="660.000000" zOrder="8">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="935.000000" layer="" locked="false" name="bar_1" width="55.000000" x="110.000000" y="715.000000" zOrder="9">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="935.000000" layer="" locked="false" name="bar_2" width="55.000000" x="2255.000000" y="715.000000" zOrder="10">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="935.000000" layer="" locked="false" name="rellenoBlue" width="2090.000000" x="165.000000" y="715.000000" zOrder="11">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="cornerFlat_1" width="0.000000" x="110.000000" y="1650.000000" zOrder="12">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-90.000000" customSize="true" height="55.000000" layer="" locked="false" name="cornerFlat_1" width="55.000000" x="2255.000000" y="1650.000000" zOrder="12">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="barFlat_1" width="2090.000000" x="165.000000" y="1650.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="cornerDetail_1" width="0.000000" x="220.000000" y="770.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="90.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="cornerDetail_1" width="0.000000" x="2145.000000" y="770.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-90.000000" customSize="true" height="55.000000" layer="DecoUp" locked="false" name="cornerDetail_1" width="55.000000" x="220.000000" y="935.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="true" height="55.000000" layer="DecoUp" locked="false" name="cornerDetail_1" width="55.000000" x="2145.000000" y="935.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="110.000000" layer="DecoUp" locked="false" name="barDetailLeft" width="55.000000" x="220.000000" y="825.000000" zOrder="14">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="110.000000" layer="DecoUp" locked="false" name="barDetailRight" width="55.000000" x="2145.000000" y="825.000000" zOrder="15">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="DecoUp" locked="false" name="barDetailTop" width="1870.000000" x="275.000000" y="770.000000" zOrder="10">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="DecoUp" locked="false" name="barDetailBottom" width="1870.000000" x="275.000000" y="935.000000" zOrder="11">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="Hero" width="0.000000" x="220.000000" y="0.000000" zOrder="18">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="825.000000" y="220.000000" zOrder="14">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="385.000000" y="385.000000" zOrder="15">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_1" width="0.000000" x="330.000000" y="660.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTechVertical_1" width="0.000000" x="330.000000" y="715.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_1" width="0.000000" x="330.000000" y="770.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="110.000000" layer="DecoUp" locked="false" name="lineaTechVertical_1" width="55.000000" x="330.000000" y="825.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_2" width="0.000000" x="330.000000" y="935.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="660.000000" layer="DecoUp" locked="false" name="lineaTechVertical_1" width="55.000000" x="330.000000" y="990.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_2" width="0.000000" x="330.000000" y="1650.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_3" width="0.000000" x="2035.000000" y="660.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTechVertical_2" width="0.000000" x="2035.000000" y="715.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_3" width="0.000000" x="2035.000000" y="770.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="110.000000" layer="DecoUp" locked="false" name="lineaTechVertical_2" width="55.000000" x="2035.000000" y="825.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_4" width="0.000000" x="2035.000000" y="935.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="660.000000" layer="DecoUp" locked="false" name="lineaTechVertical_2" width="55.000000" x="2035.000000" y="990.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_4" width="0.000000" x="2035.000000" y="1650.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_3" width="0.000000" x="767.000000" y="668.000000" zOrder="10">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_3" width="0.000000" x="770.000000" y="770.000000" zOrder="12">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="110.000000" layer="DecoUp" locked="false" name="lineaTechVertical_2" width="55.000000" x="770.000000" y="825.000000" zOrder="12">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTechVertical_2" width="0.000000" x="767.000000" y="723.000000" zOrder="10">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_4" width="0.000000" x="770.000000" y="1650.000000" zOrder="12">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="660.000000" layer="DecoUp" locked="false" name="lineaTechVertical_2" width="55.000000" x="770.000000" y="990.000000" zOrder="11">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_4" width="0.000000" x="770.000000" y="935.000000" zOrder="12">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="110.000000" layer="DecoUp" locked="false" name="lineaTechVertical_1" width="55.000000" x="1595.000000" y="825.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_1" width="0.000000" x="1595.000000" y="770.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTechVertical_1" width="0.000000" x="1595.000000" y="715.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_1" width="0.000000" x="1595.000000" y="660.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="660.000000" layer="DecoUp" locked="false" name="lineaTechVertical_1" width="55.000000" x="1595.000000" y="990.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_2" width="0.000000" x="1595.000000" y="935.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="lineaTech_2" width="0.000000" x="1595.000000" y="1650.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="2310.000000" y="1265.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="2475.000000" y="660.000000" zOrder="14">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="3300.000000" x="-711.000000" y="1705.000000" zOrder="15">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="1320.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="2585.000000" y="1265.000000" zOrder="16">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="2750.000000" y="660.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="1650.000000" x="3025.000000" y="660.000000" zOrder="18">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="cornerDetail_1" width="0.000000" x="2860.000000" y="1705.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="330.000000" layer="" locked="false" name="barDetailLeft" width="55.000000" x="2860.000000" y="1760.000000" zOrder="19">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-90.000000" customSize="false" height="0.000000" layer="" locked="false" name="cornerDetail_1" width="0.000000" x="2860.000000" y="2090.000000" zOrder="20">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="barDetailTop" width="550.000000" x="2915.000000" y="1705.000000" zOrder="21">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="90.000000" customSize="true" height="55.000000" layer="" locked="false" name="cornerDetail_1" width="55.000000" x="3465.000000" y="1705.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="330.000000" layer="" locked="false" name="barDetailRight" width="55.000000" x="3465.000000" y="1760.000000" zOrder="22">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="true" height="55.000000" layer="" locked="false" name="cornerDetail_1" width="55.000000" x="3465.000000" y="2090.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="barDetailBottom" width="550.000000" x="2915.000000" y="2090.000000" zOrder="23">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="330.000000" layer="" locked="false" name="rellenoBlue" width="550.000000" x="2915.000000" y="1760.000000" zOrder="24">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralBottom" width="0.000000" x="2860.000000" y="1925.000000" zOrder="19">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralTop" width="0.000000" x="2860.000000" y="1870.000000" zOrder="20">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-180.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralTop" width="0.000000" x="3465.000000" y="1925.000000" zOrder="20">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-180.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralBottom" width="0.000000" x="3465.000000" y="1870.000000" zOrder="19">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="DecoUp" locked="false" name="mediaBarraCentralHoriz1" width="550.000000" x="2915.000000" y="1870.000000" zOrder="21">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-180.000000" customSize="true" height="55.000000" layer="DecoUp" locked="false" name="mediaBarraCentralHoriz1" width="550.000000" x="2915.000000" y="1925.000000" zOrder="21">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp2" locked="false" name="lineaTech_1" width="0.000000" x="3080.000000" y="1705.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="330.000000" layer="DecoUp2" locked="false" name="lineaTechVertical_1" width="55.000000" x="3080.000000" y="1760.000000" zOrder="14">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp2" locked="false" name="lineaTech_2" width="0.000000" x="3080.000000" y="2090.000000" zOrder="6">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="false" height="0.000000" layer="DecoUp2" locked="false" name="lineaTech_2" width="0.000000" x="3245.000000" y="1705.000000" zOrder="6">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="true" height="330.000000" layer="DecoUp2" locked="false" name="lineaTechVertical_1" width="55.000000" x="3245.000000" y="1760.000000" zOrder="14">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="false" height="0.000000" layer="DecoUp2" locked="false" name="lineaTech_1" width="0.000000" x="3245.000000" y="2090.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="4345.000000" layer="Fondo" locked="false" name="fondo" width="8745.000000" x="-935.000000" y="-1485.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="825.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="110.000000" y="-2035.000000" zOrder="25">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="1155.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="660.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1320.000000" x="715.000000" y="-1595.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="990.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1320.000000" x="715.000000" y="-935.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="715.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1045.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1320.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1375.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1705.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1980.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1650.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="715.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1045.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="990.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1320.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1375.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1650.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1705.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1980.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1320.000000" x="715.000000" y="-1100.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="3025.000000" x="2035.000000" y="-1925.000000" zOrder="26">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="2310.000000" y="-1045.000000" zOrder="27">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="1375.000000" x="2860.000000" y="2145.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1485.000000" x="3025.000000" y="605.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1375.000000" x="3080.000000" y="550.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1265.000000" x="3135.000000" y="495.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1155.000000" x="3190.000000" y="440.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxedBox" width="385.000000" x="3575.000000" y="220.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1045.000000" x="3245.000000" y="385.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="935.000000" x="3300.000000" y="330.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="825.000000" x="3355.000000" y="275.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="3630.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxedBox" width="55.000000" x="3300.000000" y="-110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxedBox" width="55.000000" x="4180.000000" y="-110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxedBox" width="275.000000" x="3630.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="3630.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="3630.000000" y="-55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxedBox" width="275.000000" x="3630.000000" y="0.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxedBox" width="385.000000" x="3575.000000" y="-110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="3630.000000" y="-165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxedBox" width="275.000000" x="3630.000000" y="-220.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="3630.000000" y="-275.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="3630.000000" y="-385.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxedBox" width="275.000000" x="3630.000000" y="-330.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxedBox" width="385.000000" x="3575.000000" y="-440.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="3630.000000" y="-495.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxedBox" width="275.000000" x="3630.000000" y="-550.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="0.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="3631.000000" y="-604.000000" zOrder="32">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="165.000000" layer="" locked="false" name="boxedBox" width="55.000000" x="3575.000000" y="-825.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="165.000000" layer="" locked="false" name="boxedBox" width="55.000000" x="3905.000000" y="-825.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="110.000000" layer="" locked="false" name="boxedBox" width="275.000000" x="3630.000000" y="-715.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="3630.000000" y="-605.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="true" height="55.000000" layer="" locked="false" name="angle45" width="55.000000" x="3575.000000" y="-660.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="-180.000000" customSize="false" height="0.000000" layer="" locked="false" name="angle45_2" width="0.000000" x="3905.000000" y="-660.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma1" width="55.000000" x="3575.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma1" width="55.000000" x="3355.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma1" width="55.000000" x="3410.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma1" width="55.000000" x="3465.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma1" width="55.000000" x="3520.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma2" width="55.000000" x="3575.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma2" width="55.000000" x="3355.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma2" width="55.000000" x="3410.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma2" width="55.000000" x="3465.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma2" width="55.000000" x="3520.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="4070.000000" y="220.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3575.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3355.000000" y="220.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3410.000000" y="220.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3465.000000" y="220.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3355.000000" y="220.000000" zOrder="41">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3355.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3410.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3465.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3520.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma1" width="55.000000" x="4125.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma1" width="55.000000" x="3960.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma1" width="55.000000" x="3905.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma1" width="55.000000" x="4070.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma2" width="55.000000" x="3960.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma1" width="55.000000" x="4015.000000" y="55.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma2" width="55.000000" x="4125.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma2" width="55.000000" x="4070.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma2" width="55.000000" x="4015.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="redPlasma2" width="55.000000" x="3905.000000" y="110.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="4125.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="4070.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3905.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="4015.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3960.000000" y="165.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3520.000000" y="220.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="4125.000000" y="220.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="3960.000000" y="220.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma2" width="0.000000" x="4015.000000" y="220.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+            </instances>
+            <objects>
+                <object height="440.000000" name="bigBlock_1" texture="st1_block_10x16.png" type="TiledSpriteObject::TiledSprite" width="275.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="cornerFloor_1" texture="gmtrz_solid_blue_060.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="floor_1" texture="gmtrz_solid_blue_061.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="cornerFloor_2" texture="gmtrz_solid_blue_059.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="bar_1" texture="gmtrz_solid_blue_041.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="bar_2" texture="gmtrz_solid_blue_042.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="rellenoBlue" texture="gmtrz_solid_blue_018.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="cornerFlat_1" texture="gmtrz_solid_blue_078.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="barFlat_1" texture="gmtrz_solid_blue_044.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="cornerDetail_1" texture="gmtrz_solid_blue_014.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="248.000000" name="box_4x4_detail" texture="block_3x3.png" type="TiledSpriteObject::TiledSprite" width="248.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="barDetailLeft" texture="gmtrz_solid_blue_032.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="barDetailRight" texture="gmtrz_solid_blue_025.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="barDetailTop" texture="gmtrz_solid_blue_023.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="barDetailBottom" texture="gmtrz_solid_blue_024.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="boxBlue" texture="gmtrz_solid_blue_099.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object name="bigBlock_sprite" type="Sprite">
+                    <variables />
+                    <behaviors>
+                        <behavior angularDamping="0.100000" autoResizing="false" averageFriction="0.800000" averageRestitution="0.000000" coordsList="" dynamic="true" fixedRotation="false" isBullet="false" linearDamping="0.100000" massDensity="1.000000" name="Physics" polygonHeight="200.000000" polygonWidth="200.000000" positioning="OnCenter" shapeType="Box" type="PhysicsBehavior::PhysicsBehavior" />
+                    </behaviors>
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="st1_block_10x16.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="137.500000" y="220.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="275.000000" y="0.000000" />
+                                                    <vertice x="275.000000" y="440.000000" />
+                                                    <vertice x="0.000000" y="440.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object height="55.000000" name="lineaTech_1" texture="gmtrz_solid_blue_000.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="55.000000" name="lineaTechVertical_1" texture="gmtrz_solid_blue_005.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="55.000000" name="lineaTech_2" texture="gmtrz_solid_blue_001.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="55.000000" name="lineaTech_3" texture="gmtrz_solid_blue_002.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="55.000000" name="lineaTechVertical_2" texture="gmtrz_solid_blue_008.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="55.000000" name="lineaTech_4" texture="gmtrz_solid_blue_003.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="55.000000" name="mediaBarraCentralBottom" texture="gmtrz_solid_blue_027.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="55.000000" name="mediaBarraCentralTop" texture="gmtrz_solid_blue_028.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="55.000000" name="mediaBarraCentralHoriz1" texture="gmtrz_solid_blue_030.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="32.000000" name="fondo" texture="gmtrz_back_1.png" type="TiledSpriteObject::TiledSprite" width="32.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object height="55.000000" name="boxedBox" texture="gmtrz_solid_blue_102.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="angle45" texture="gmtrz_desliz_0.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object height="55.000000" name="angle45_2" texture="gmtrz_desliz_1.png" type="TiledSpriteObject::TiledSprite" width="55.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior canBeGrabbed="false" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
+                    </behaviors>
+                </object>
+                <object name="redPlasma1" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="true" timeBetweenFrames="0.250000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="plasma_red_top.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="27.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="55.000000" />
+                                                    <vertice x="0.000000" y="55.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="plasma_red_top2.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="27.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="55.000000" />
+                                                    <vertice x="0.000000" y="55.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="redPlasma2" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="true" timeBetweenFrames="0.250000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="plasma_red_block2.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="27.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="55.000000" />
+                                                    <vertice x="0.000000" y="55.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="plasma_red_block1.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="27.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="55.000000" />
+                                                    <vertice x="0.000000" y="55.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="redPlasma3" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="true" timeBetweenFrames="0.250000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="plasma_red_block1.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="27.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="55.000000" />
+                                                    <vertice x="0.000000" y="55.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="plasma_red_block2.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="27.500000" y="27.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="0.000000" />
+                                                    <vertice x="55.000000" y="55.000000" />
+                                                    <vertice x="0.000000" y="55.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+            </objects>
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Link</type>
+                    <include includeConfig="0" />
+                    <target>PlayerManagement</target>
+                </event>
+            </events>
+            <layers>
+                <layer name="Fondo" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="Parallax" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="Deco" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="DecoUp" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="DecoUp2" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+                <layer name="UI" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+            </layers>
+            <behaviorsSharedData>
+                <behaviorSharedData gravityX="0.000000" gravityY="0.000000" name="Physics" scaleX="100.000000" scaleY="100.000000" type="PhysicsBehavior::PhysicsBehavior" />
+                <behaviorSharedData name="Platform" type="PlatformBehavior::PlatformBehavior" />
+                <behaviorSharedData name="platformerHero" type="PlatformBehavior::PlatformerObjectBehavior" />
+            </behaviorsSharedData>
+        </layout>
+    </layouts>
+    <externalEvents>
+        <externalEvents associatedLayout="Tritankle" lastChangeTimeStamp="0" name="PlayerManagement">
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="255" g="0" r="0" textB="255" textG="255" textR="255" />
+                    <comment>While Game.status = 0</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="VarGlobal" />
+                            <parameters>
+                                <parameter>game.status</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <events>
+                        <event colorB="228" colorG="176" colorR="74" creationTime="0" disabled="false" folded="false" name="Player Management" source="">
+                            <type>BuiltinCommonInstructions::Group</type>
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>hero.hp</parameter>
+                                                <parameter>&lt;=</parameter>
+                                                <parameter>0</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ModVarGlobal" />
+                                            <parameters>
+                                                <parameter>hero.hp</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>0</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="ModVarGlobal" />
+                                            <parameters>
+                                                <parameter>game.isGameOver</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>1</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="KeyPressed" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>Right</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ModVarGlobal" />
+                                            <parameters>
+                                                <parameter>hero.facing</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>0</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="FlipX" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                                <parameter>no</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="KeyPressed" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>Left</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ModVarGlobal" />
+                                            <parameters>
+                                                <parameter>hero.facing</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>1</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="FlipX" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                                <parameter>yes</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="PlatformBehavior::IsJumping" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                                <parameter>platformerHero</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="true" value="PlatformBehavior::IsFalling" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                                <parameter>platformerHero</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="BuiltinCommonInstructions::Once" />
+                                            <parameters />
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ChangeAnimation" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>4</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PlayAnimation" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="PlatformBehavior::IsFalling" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                                <parameter>platformerHero</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="BuiltinCommonInstructions::Once" />
+                                            <parameters />
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ChangeAnimation" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>5</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PlayAnimation" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="PlatformBehavior::IsOnFloor" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                                <parameter>platformerHero</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                        <condition>
+                                            <type inverted="false" value="BuiltinCommonInstructions::Once" />
+                                            <parameters />
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="ChangeAnimation" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>0</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="PlayAnimation" />
+                                            <parameters>
+                                                <parameter>Hero</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Comment</type>
+                                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                                    <comment>Manejo de camara</comment>
+                                    <comment2></comment2>
+                                </event>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>game.status</parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>0</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="CentreCamera" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>Hero</parameter>
+                                                <parameter></parameter>
+                                                <parameter>&quot;&quot;</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="CentreCamera" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>Hero</parameter>
+                                                <parameter></parameter>
+                                                <parameter>&quot;DecoUp&quot;</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="CameraX" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>Hero.X()*0.25</parameter>
+                                                <parameter>&quot;Fondo&quot;</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                        <action>
+                                            <type inverted="false" value="CameraY" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>=</parameter>
+                                                <parameter>Hero.Y()*0.25</parameter>
+                                                <parameter>&quot;Fondo&quot;</parameter>
+                                                <parameter></parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                            </events>
+                            <parameters />
+                        </event>
+                    </events>
+                </event>
+            </events>
+        </externalEvents>
+    </externalEvents>
+    <externalLayouts />
+    <externalSourceFiles />
+</project>
