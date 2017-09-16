@@ -495,7 +495,7 @@
     </variables>
     <layouts>
         <layout b="209" disableInputWhenNotFocused="true" mangledName="Tritankle" name="Tritankle" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="true" gridB="94" gridG="210" gridHeight="55" gridOffsetX="0" gridOffsetY="0" gridR="94" gridWidth="55" snap="true" windowMask="false" zoomFactor="0.100000" />
+            <uiSettings grid="true" gridB="94" gridG="210" gridHeight="55" gridOffsetX="0" gridOffsetY="0" gridR="94" gridWidth="55" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups>
                 <group name="movables by rebound system">
                     <objects />
@@ -616,6 +616,11 @@
                     <initialVariables />
                 </instance>
                 <instance angle="-90.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="barDetailAlpha" width="0.000000" x="110.000000" y="-330.000000" zOrder="12">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="3520.000000" layer="" locked="false" name="bigBlock_1" width="1375.000000" x="-1265.000000" y="-2035.000000" zOrder="4">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -875,102 +880,252 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
+                <instance angle="0.000000" customSize="true" height="1320.000000" layer="" locked="false" name="bigBlock_1" width="3300.000000" x="-715.000000" y="1705.000000" zOrder="15">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="1760.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="2585.000000" y="1265.000000" zOrder="16">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="2750.000000" y="660.000000" zOrder="17">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="1650.000000" x="3025.000000" y="660.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="1650.000000" x="3025.000000" y="660.000000" zOrder="18">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="6435.000000" layer="Fondo" locked="true" name="fondo" width="16610.000000" x="-770.000000" y="-2585.000000" zOrder="1">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="cornerDetail_1" width="0.000000" x="2860.000000" y="1705.000000" zOrder="13">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="110.000000" y="-2200.000000" zOrder="25">
+                <instance angle="0.000000" customSize="true" height="330.000000" layer="" locked="false" name="barDetailLeft" width="55.000000" x="2860.000000" y="1760.000000" zOrder="19">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="1100.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="660.000000" y="-2200.000000" zOrder="17">
+                <instance angle="-90.000000" customSize="false" height="0.000000" layer="" locked="false" name="cornerDetail_1" width="0.000000" x="2860.000000" y="2090.000000" zOrder="20">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="990.000000" y="-2200.000000" zOrder="17">
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="barDetailTop" width="550.000000" x="2915.000000" y="1705.000000" zOrder="21">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1320.000000" x="715.000000" y="-1155.000000" zOrder="17">
+                <instance angle="90.000000" customSize="true" height="55.000000" layer="" locked="false" name="cornerDetail_1" width="55.000000" x="3465.000000" y="1705.000000" zOrder="13">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="715.000000" y="-2200.000000" zOrder="17">
+                <instance angle="0.000000" customSize="true" height="330.000000" layer="" locked="false" name="barDetailRight" width="55.000000" x="3465.000000" y="1760.000000" zOrder="22">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1045.000000" y="-2200.000000" zOrder="17">
+                <instance angle="180.000000" customSize="true" height="55.000000" layer="" locked="false" name="cornerDetail_1" width="55.000000" x="3465.000000" y="2090.000000" zOrder="13">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1320.000000" y="-2200.000000" zOrder="17">
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="barDetailBottom" width="550.000000" x="2915.000000" y="2090.000000" zOrder="23">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1375.000000" y="-2200.000000" zOrder="17">
+                <instance angle="0.000000" customSize="true" height="330.000000" layer="" locked="false" name="rellenoBlue" width="550.000000" x="2915.000000" y="1760.000000" zOrder="24">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1705.000000" y="-2200.000000" zOrder="17">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralBottom" width="0.000000" x="2860.000000" y="1925.000000" zOrder="19">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1980.000000" y="-2200.000000" zOrder="17">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralTop" width="0.000000" x="2860.000000" y="1870.000000" zOrder="20">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1650.000000" y="-2200.000000" zOrder="17">
+                <instance angle="-180.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralTop" width="0.000000" x="3465.000000" y="1925.000000" zOrder="20">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="715.000000" y="-1760.000000" zOrder="17">
+                <instance angle="-180.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralBottom" width="0.000000" x="3465.000000" y="1870.000000" zOrder="19">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1045.000000" y="-1760.000000" zOrder="17">
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="DecoUp" locked="false" name="mediaBarraCentralHoriz1" width="550.000000" x="2915.000000" y="1870.000000" zOrder="21">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1375.000000" y="-1760.000000" zOrder="17">
+                <instance angle="-180.000000" customSize="true" height="55.000000" layer="DecoUp" locked="false" name="mediaBarraCentralHoriz1" width="550.000000" x="2915.000000" y="1925.000000" zOrder="21">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1705.000000" y="-1760.000000" zOrder="17">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp2" locked="false" name="lineaTech_1" width="0.000000" x="3080.000000" y="1705.000000" zOrder="13">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1320.000000" x="715.000000" y="-1320.000000" zOrder="17">
+                <instance angle="0.000000" customSize="true" height="330.000000" layer="DecoUp2" locked="false" name="lineaTechVertical_1" width="55.000000" x="3080.000000" y="1760.000000" zOrder="14">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="1320.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="2310.000000" y="-1760.000000" zOrder="15">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="DecoUp2" locked="false" name="lineaTech_2" width="0.000000" x="3080.000000" y="2090.000000" zOrder="6">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="false" height="0.000000" layer="DecoUp2" locked="false" name="lineaTech_2" width="0.000000" x="3245.000000" y="1705.000000" zOrder="6">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="true" height="330.000000" layer="DecoUp2" locked="false" name="lineaTechVertical_1" width="55.000000" x="3245.000000" y="1760.000000" zOrder="14">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="false" height="0.000000" layer="DecoUp2" locked="false" name="lineaTech_1" width="0.000000" x="3245.000000" y="2090.000000" zOrder="13">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="6435.000000" layer="Fondo" locked="false" name="fondo" width="14465.000000" x="-770.000000" y="-2585.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="110.000000" y="-2035.000000" zOrder="25">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="1155.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="660.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1320.000000" x="715.000000" y="-1595.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="990.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1320.000000" x="715.000000" y="-935.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="715.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1045.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1320.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1375.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1705.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1980.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1650.000000" y="-2035.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="715.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1045.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="990.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1320.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1375.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1650.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="1705.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="1980.000000" y="-1540.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1320.000000" x="715.000000" y="-1100.000000" zOrder="17">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="10725.000000" x="2035.000000" y="-1925.000000" zOrder="26">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="2310.000000" y="-1045.000000" zOrder="27">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="1375.000000" x="2860.000000" y="2145.000000" zOrder="13">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -1310,32 +1465,57 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="990.000000" layer="" locked="false" name="box_4x4_detail" width="990.000000" x="4235.000000" y="2035.000000" zOrder="42">
+                <instance angle="0.000000" customSize="true" height="990.000000" layer="" locked="false" name="box_4x4_detail" width="495.000000" x="4235.000000" y="2145.000000" zOrder="42">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="5720.000000" y="2640.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="4730.000000" y="2145.000000" zOrder="43">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="495.000000" layer="" locked="false" name="box_4x4_detail" width="1980.000000" x="4235.000000" y="1540.000000" zOrder="46">
+                <instance angle="0.000000" customSize="true" height="495.000000" layer="" locked="false" name="box_4x4_detail" width="990.000000" x="5005.000000" y="2145.000000" zOrder="44">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="6270.000000" y="1707.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="1100.000000" x="5005.000000" y="2640.000000" zOrder="45">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="825.000000" x="5720.000000" y="2585.000000" zOrder="49">
+                <instance angle="0.000000" customSize="true" height="248.000000" layer="" locked="false" name="box_4x4_detail" width="1980.000000" x="4180.000000" y="1540.000000" zOrder="46">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="550.000000" x="5995.000000" y="2640.000000" zOrder="15">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="5995.000000" y="2145.000000" zOrder="47">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="6270.000000" y="1707.000000" zOrder="48">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="550.000000" x="5995.000000" y="2585.000000" zOrder="49">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="bigBlock_1" width="0.000000" x="6270.000000" y="2640.000000" zOrder="50">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="165.000000" x="6105.000000" y="2640.000000" zOrder="51">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="385.000000" layer="" locked="false" name="boxedBox" width="110.000000" x="6160.000000" y="1540.000000" zOrder="52">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -1350,17 +1530,17 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="floor_1" width="2915.000000" x="4730.000000" y="660.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="floor_1" width="2915.000000" x="4730.000000" y="660.000000" zOrder="56">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="-180.000000" customSize="true" height="55.000000" layer="" locked="false" name="floor_1" width="2915.000000" x="4730.000000" y="715.000000" zOrder="15">
+                <instance angle="-180.000000" customSize="true" height="55.000000" layer="" locked="false" name="floor_1" width="2915.000000" x="4730.000000" y="715.000000" zOrder="57">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="495.000000" layer="" locked="false" name="box_4x4_detail" width="2970.000000" x="4675.000000" y="770.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="495.000000" layer="" locked="false" name="box_4x4_detail" width="2970.000000" x="4675.000000" y="770.000000" zOrder="58">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -1375,7 +1555,17 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="495.000000" layer="" locked="false" name="box_4x4_detail" width="1485.000000" x="7920.000000" y="-880.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="165.000000" layer="" locked="false" name="boxedBox" width="275.000000" x="6270.000000" y="1540.000000" zOrder="61">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="1540.000000" layer="" locked="false" name="boxedBox" width="55.000000" x="6545.000000" y="1540.000000" zOrder="62">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="495.000000" layer="" locked="false" name="box_4x4_detail" width="1485.000000" x="7810.000000" y="-880.000000" zOrder="63">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -1385,227 +1575,92 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="1650.000000" x="7810.000000" y="-330.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="1650.000000" x="7810.000000" y="-330.000000" zOrder="65">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="3025.000000" x="7810.000000" y="550.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="4675.000000" x="7810.000000" y="550.000000" zOrder="66">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="1375.000000" x="9460.000000" y="605.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="4675.000000" x="7810.000000" y="605.000000" zOrder="67">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="1320.000000" layer="" locked="false" name="bigBlock_1" width="1100.000000" x="6710.000000" y="1540.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="495.000000" layer="" locked="false" name="box_4x4_detail" width="990.000000" x="7810.000000" y="1045.000000" zOrder="68">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="2640.000000" layer="" locked="false" name="bigBlock_1" width="1650.000000" x="7810.000000" y="605.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="1375.000000" x="7700.000000" y="1540.000000" zOrder="69">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="6160.000000" layer="" locked="false" name="bigBlock_1" width="1100.000000" x="-990.000000" y="-2200.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="495.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="8800.000000" y="1045.000000" zOrder="70">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="1375.000000" layer="" locked="false" name="bigBlock_1" width="15675.000000" x="110.000000" y="3520.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="1100.000000" x="6600.000000" y="1540.000000" zOrder="71">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="13750.000000" x="2035.000000" y="-2200.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="1320.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="6600.000000" y="1980.000000" zOrder="72">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="5720.000000" layer="" locked="false" name="bigBlock_1" width="1045.000000" x="15235.000000" y="-1760.000000" zOrder="15">
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="2200.000000" x="6875.000000" y="2420.000000" zOrder="73">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="1925.000000" x="2860.000000" y="3080.000000" zOrder="87">
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="550.000000" x="8525.000000" y="1980.000000" zOrder="74">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="2475.000000" x="2805.000000" y="3025.000000" zOrder="88">
+                <instance angle="0.000000" customSize="true" height="2200.000000" layer="" locked="false" name="bigBlock_1" width="275.000000" x="12485.000000" y="-1045.000000" zOrder="75">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="4785.000000" y="3080.000000" zOrder="89">
+                <instance angle="0.000000" customSize="true" height="2255.000000" layer="" locked="false" name="bigBlock_1" width="825.000000" x="9075.000000" y="1045.000000" zOrder="76">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="-180.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralTop" width="0.000000" x="4180.000000" y="1925.000000" zOrder="20">
+                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="2860.000000" x="9900.000000" y="1320.000000" zOrder="77">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="-180.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralBottom" width="0.000000" x="4180.000000" y="1870.000000" zOrder="19">
+                <instance angle="0.000000" customSize="true" height="935.000000" layer="" locked="false" name="bigBlock_1" width="2860.000000" x="9900.000000" y="2640.000000" zOrder="78">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="-180.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralBottom" width="0.000000" x="4180.000000" y="2310.000000" zOrder="19">
+                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="1760.000000" x="11000.000000" y="2200.000000" zOrder="79">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="-180.000000" customSize="false" height="0.000000" layer="DecoUp" locked="false" name="mediaBarraCentralTop" width="0.000000" x="4180.000000" y="2365.000000" zOrder="20">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="box_4x4_detail" width="0.000000" x="13805.000000" y="-55.000000" zOrder="80">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="3905.000000" x="110.000000" y="1705.000000" zOrder="90">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma1" width="0.000000" x="9955.000000" y="1045.000000" zOrder="81">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="2805.000000" y="3080.000000" zOrder="91">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="880.000000" layer="" locked="false" name="bigBlock_1" width="1100.000000" x="2860.000000" y="1760.000000" zOrder="15">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="935.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="3960.000000" y="1760.000000" zOrder="93">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1210.000000" x="3025.000000" y="1540.000000" zOrder="94">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="1430.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="4180.000000" y="1595.000000" zOrder="95">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1100.000000" x="2860.000000" y="2640.000000" zOrder="96">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="935.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="2805.000000" y="1760.000000" zOrder="97">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="1760.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="110.000000" y="1760.000000" zOrder="98">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="2640.000000" x="165.000000" y="3465.000000" zOrder="99">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="1595.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="550.000000" y="1870.000000" zOrder="100">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1980.000000" x="605.000000" y="2145.000000" zOrder="101">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1980.000000" x="825.000000" y="2365.000000" zOrder="102">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="165.000000" x="605.000000" y="2530.000000" zOrder="103">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="165.000000" x="770.000000" y="2695.000000" zOrder="103">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="165.000000" x="935.000000" y="2860.000000" zOrder="103">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="440.000000" layer="" locked="false" name="bigBlock_1" width="2200.000000" x="605.000000" y="3025.000000" zOrder="104">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="1980.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="6545.000000" y="1540.000000" zOrder="105">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="1045.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="6215.000000" y="1540.000000" zOrder="106">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="275.000000" x="6270.000000" y="1650.000000" zOrder="107">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="990.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="5225.000000" y="2035.000000" zOrder="89">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="935.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="5665.000000" y="2585.000000" zOrder="108">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="825.000000" x="4840.000000" y="3465.000000" zOrder="109">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="935.000000" x="5280.000000" y="2035.000000" zOrder="110">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="boxBlue" width="1265.000000" x="6600.000000" y="3465.000000" zOrder="111">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="220.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="7810.000000" y="3245.000000" zOrder="112">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="495.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="7645.000000" y="770.000000" zOrder="113">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="275.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="9405.000000" y="3248.000000" zOrder="112">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="275.000000" layer="" locked="false" name="boxBlue" width="55.000000" x="8525.000000" y="3245.000000" zOrder="112">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="redPlasma1" width="0.000000" x="9900.000000" y="1045.000000" zOrder="81">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
